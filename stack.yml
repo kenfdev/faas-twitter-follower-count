@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  twitter-follower-count:
+    lang: typescript
+    handler: ./twitter-follower-count
+    image: twitter-follower-count
