@@ -1,0 +1,7 @@
+{
+  "extends": "./function/tsconfig",
+  "compilerOptions": {
+    "outDir": "./out"
+  },
+  "files": ["index.ts"]
+}
